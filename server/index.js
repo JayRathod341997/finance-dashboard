@@ -21,7 +21,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cors());
 
 console.log("hello Jay");
-
+app.get("/", (req, res) => {
+  res.send("hello world");
+});
 /* ROUTES */
 app.use("/kpi", kpiRoutes);
 
