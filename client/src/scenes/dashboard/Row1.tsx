@@ -189,13 +189,13 @@ const Row1 = () => {
             <Line
               yAxisId="left"
               type="monotone"
-              dataKey="Profit"
+              dataKey="profit"
               stroke={palette.tertiary[500]}
             />
             <Line
               yAxisId="right"
               type="monotone"
-              dataKey="Revenue"
+              dataKey="revenue"
               stroke={palette.primary.main}
             />
           </LineChart>
