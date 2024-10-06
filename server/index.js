@@ -27,7 +27,7 @@ app.use(cors());
 
 console.log("hello Jay");
 app.get("/", (req, res) => {
-  res.send("hello world");
+  res.send("Hello World !");
 });
 /* ROUTES */
 app.use("/kpi", kpiRoutes);
